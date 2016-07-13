@@ -1,0 +1,319 @@
+* { 
+  box-sizing: border-box;
+}
+body {
+	background-color: #D3D3D3;
+    padding:0;
+	width: 100%;
+	height: 100%;
+	background-color: #F9F9F9;
+	margin: 0 auto 0;
+	margin-top: 0;
+	background-color: #f2bb13;
+}
+h1,
+h2,
+p {
+	text-align: center;
+	font-size: 1.7em;
+	margin: 30px 20px 20px 20px;
+}
+img {
+	display: block;
+	margin: 0 auto 0;
+	width: 90%;
+}
+.intro {
+	background-color: #f2bb13;
+}
+.intro img {
+	width: 65%;
+	border-radius: 5px;
+}
+.main-title {
+	font-size: 2.5em;
+	margin-top: -1px;
+	font-weight: bold;
+	color: black;
+	background-color: #f2bb13;
+}
+.nav {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	}
+.top-nav li {
+	background-color: #4ba658;	
+}
+.nav li {
+	text-align: center;
+	list-style: none;
+	width: 93%;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #4A4A4A;
+	border-radius: 5px;
+}
+.nav li:not(first-child) {
+	margin-top: 7px;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+.tile-section,
+.skills,
+.portfolio {
+	background-color: #d9a384;
+}
+.section,
+.portfolio .title,
+.skills .title {
+	padding-top: 60px;
+}
+.contact {
+	padding-top: 25px;
+	background-color: #f2a516;
+}
+.title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #4A4A4A;
+}
+.section p {
+	color: black;
+}
+.contact {
+	margin-top: 1px;
+}
+.contact-p {
+	margin-top: 50px;
+}
+.contact p,
+.intro p {
+	color: #79360c;
+}
+.contact-info a,
+.contact-info a:visited,
+.contact-info a:hover,
+.contact-info a:active{
+	font-weight: bold;
+	color: #7F7F7F;
+}
+.back-to-top {
+	float: right;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+footer {
+	height: 100px;
+	color: #d9a384;
+}
+.hr-resizer {
+	margin: 0 auto 0;
+	width: 90%;
+}
+.sname {
+	font-weight: bold;
+	font-size: 1.5em;
+	float: left;
+	padding-top: 25px;
+	padding-left: 20px;
+	color: #000;
+}
+.bottom-nav {
+	display: none;
+}
+@media(min-width: 768px) {
+	.wrapper {
+		width: 100%;
+	}
+	.tile-section {
+		margin: 0 auto 0;
+		width: 100%;
+		background-color: #fff;
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.portfolio,
+	.skills {
+		padding-top: 30px;
+	}
+	.portfolio img,
+	.skills img {
+		padding-bottom: 30px;
+	}
+	p {
+		font-size: 1em;
+		padding: 0 50px 0 50px;
+	}
+	.section img {
+		width: 95%;
+	}
+	.section {
+		flex: 0 1 50%;
+	}
+	.section-title {
+		font-size: 1.3em;
+	}
+	.contact p {
+		padding: 0 150px 0 150px;
+	}
+	.email {
+		padding: 8px;
+		margin-top: 10px;
+	}
+	.title {
+		font-size: 1.2em;
+	}
+	.bottom-nav {
+		display: flex;
+		float: right;
+		align-items: center;
+	}
+	.bottom-nav li {
+		padding: 21px 20px 15px 20px;
+		margin: 21px 20px 15px 20px;
+	}
+	.nav {
+		flex-direction: row;
+	}
+	.back-to-top {
+		display: none;
+	}
+	.nav li {
+		width: 20%;
+		font-size: 1em;
+	}
+	.bottom-nav li {
+		background-color: #f2bb13;
+	}
+	.sname {
+		font-size: 1.2em;
+	}
+	.top-nav {
+		width: 70%;
+		margin: 0 auto 0;
+	}
+	.top-nav li:first-child {
+		border-radius: 5px 0 0 5px;
+	}	
+	.top-nav li:last-child {
+		border-radius: 0 5px 5px 0;
+	}
+	.main-title {
+		font-size: 1.6em;
+		margin-top: 25px;
+	}
+	.intro {
+		height: 375px;
+	}
+	.intro img {
+		width: 30%;
+		float:right;
+		margin-right: 15px;
+	}
+	.intro p {
+		padding-right: 300px;
+		padding-left: 10px;
+		margin-top: -20px;
+	}
+	.tile-section,
+	.skills {
+		background-color: #d9a384;
+	}
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+@media(min-width: 1024px){
+	.portfolio,
+	.skills {
+		margin: 0 auto 0;
+		width: 95%;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 30px;
+	}
+	.section {
+		flex: 0 1 33%;
+		width: 100%;
+	}
+	.section-title,
+	.section p {
+		margin-top: -5px;
+	}
+	.contact p {
+		padding: 0 300px 40px 300px;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-bottom: 5px;
+	}
+	.contact-info {
+		font-size: 1.2em;
+	}
+	.main-nav {
+		float: right;
+		width: 45%;
+		padding-top: 30px;
+		margin-right: -10px;
+	}
+	.main-title {
+		float: left;
+		padding-top: 20px;
+		padding-left: 25px;
+	}
+	.intro {
+		height: 400px;
+	}
+	.intro img {
+		width: 22%;
+		margin-top: 25px;
+		margin-right: 65px;
+		clear: both;
+	}
+	.intro p {
+		width: 58%;	
+		float: left;
+		margin-top: 50px;
+		padding-left: 35px;
+		font-size: 1.5em;
+		padding-right: 5px;
+	}
+	.sname {
+		padding-left: 80px;
+	}
+	.bottom-nav {
+		padding-right: 40px;
+	}
+	.bottom-nav li:not(first-child){
+		padding-left: 1px;
+		margin-left: 5px;
+	}
+	.sname,
+	.bottom-nav {
+		margin-top: 30px;
+	}
+	.hr-resizer {
+		margin-bottom: -20px;
+		width: 85%;
+	}
+	.section p {
+		font-size: 1.1em;
+		margin: 20px 10px 20px 10px;
+	}
+}
