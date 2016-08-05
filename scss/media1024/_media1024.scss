@@ -1,0 +1,78 @@
+@include bp(1024px){
+	.portfolio,
+	.skills {
+		margin: 0 auto 0;
+		width: 95%;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-bottom: 30px;
+	}
+	.section {
+		flex: 0 1 33%;
+		width: 100%;
+	}
+	.section-title,
+	.section p {
+		margin-top: -5px;
+	}
+	.contact p {
+		padding: 0 300px 40px 300px;
+		font-size: 1.5em;
+	}
+	.phone {
+		margin-bottom: 5px;
+	}
+	.contact-info {
+		font-size: 1.2em;
+	}
+	.main-nav {
+		float: right;
+		width: 45%;
+		padding-top: 30px;
+		margin-right: -10px;
+	}
+	.main-title {
+		float: left;
+		padding-top: 20px;
+		padding-left: 25px;
+	}
+	.intro {
+		height: 400px;
+		img {
+			width: 22%;
+			margin-top: 25px;
+			margin-right: 65px;
+			clear: both;
+		}
+		p {
+			width: 58%;	
+			float: left;
+			margin-top: 50px;
+			padding-left: 35px;
+			font-size: 1.5em;
+			padding-right: 5px;
+		}
+	}
+	.sname {
+		padding-left: 80px;
+	}
+	.bottom-nav {
+		padding-right: 40px;
+		li:not(first-child){
+			padding-left: 1px;
+			margin-left: 5px;
+		}
+	}
+	.sname,
+	.bottom-nav {
+		margin-top: 30px;
+	}
+	.hr-resizer {
+		margin-bottom: -20px;
+		width: 85%;
+	}
+	.section p {
+		font-size: 1.1em;
+		margin: 20px 10px 20px 10px;
+	}
+}

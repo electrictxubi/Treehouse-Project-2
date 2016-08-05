@@ -1,0 +1,105 @@
+@include bp(768px) {
+	.wrapper {
+		width: 100%;
+	}
+	.hide-button img{
+		width: 5%;
+		float: right;
+	}
+	.tile-section {
+		margin: 0 auto 0;
+		width: 100%;
+		background-color: #fff;
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.portfolio,
+	.skills {
+		padding-top: 30px;
+	}
+	.portfolio,
+	.skills {
+		img {
+			padding-bottom: 30px;
+		}
+	}	
+	p {
+		font-size: 1em;
+		padding: 0 50px 0 50px;
+	}
+	.section img {
+		width: 95%;
+	}
+	.section {
+		flex: 0 1 50%;
+	}
+	.section-title {
+		font-size: 1.3em;
+	}
+	.contact p {
+		padding: 0 150px 0 150px;
+	}
+	.email {
+		padding: 8px;
+		margin-top: 10px;
+	}
+	.title {
+		font-size: 1.2em;
+	}
+	.bottom-nav {
+		display: flex;
+		float: right;
+		align-items: center;
+	}
+	.bottom-nav li {
+		padding: 21px 20px 15px 20px;
+		margin: 21px 20px 15px 20px;
+	}
+	.nav {
+		flex-direction: row;
+	}
+	.back-to-top {
+		display: none;
+	}
+	.nav li {
+		width: 20%;
+		font-size: 1em;
+	}
+	.bottom-nav li {
+		background-color: $color-bottom-nav-li-bg;
+	}
+	.sname {
+		font-size: 1.2em;
+	}
+	.top-nav {
+		width: 70%;
+		margin: 0 auto 0;
+		li:first-child {
+			border-radius: $br 0 0 $br;
+		}	
+	    li:last-child {
+			border-radius: 0 $br $br 0;
+		}
+	}
+	.main-title {
+		font-size: 1.6em;
+		margin-top: 25px;
+	}
+	.intro {
+		height: 375px;
+		img {
+			width: 30%;
+			float:right;
+			margin-right: 15px;
+		}
+	}
+	.intro p {
+		padding-right: 300px;
+		padding-left: 10px;
+		margin-top: -20px;
+	}
+	.tile-section,
+	.skills {
+		background-color: $color-section-media;
+	}
+}

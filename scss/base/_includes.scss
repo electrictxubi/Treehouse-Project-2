@@ -1,0 +1,18 @@
+%clearfix {
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+%baseHeading {
+	text-align: center;
+	font-size: 1.7em;
+	margin: 30px 20px 20px 20px;
+}
+%sectionPadding {
+	padding-top: 60px;
+}
+%sectionColor {
+	background-color: $color-section-bg;
+}

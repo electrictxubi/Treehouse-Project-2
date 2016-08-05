@@ -1,0 +1,28 @@
+@mixin bp($point) {
+  @media(min-width: $point){
+  	@content;
+  }
+}
+@mixin linx ($link, $visit, $hover, $active, $fontW: null, $textD: null) {
+  a {
+    color: $link;
+    font-weight: $fontW;
+    text-decoration: $textD;
+    &:visited {
+      color: $visit;
+      font-weight: $fontW;
+      text-decoration: $textD;
+    }
+    &:hover {
+      color: $hover;   
+      font-weight: $fontW;
+      text-decoration: $textD;
+    }
+    &:active {
+      color: $active;
+      font-weight: $fontW;
+      text-decoration: $textD;
+    }
+    
+  }
+}

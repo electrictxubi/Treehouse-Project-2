@@ -1,0 +1,27 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	li {
+		text-align: center;
+		list-style: none;
+		width: 93%;
+		padding-top: 17px;
+		padding-bottom: 17px;
+		font-size: 1.3em;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: $color-nav-li-text;
+		border-radius: $br;
+		&:not(first-child){
+			margin-top: 7px;
+		}
+	}
+}
+.top-nav li {
+	background-color: #4ba658;	
+}
+

@@ -1,0 +1,24 @@
+.back-to-top {
+	float: right;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+footer {
+	height: 100px;
+	color: $color-footer-text;
+}
+.hr-resizer {
+	margin: 0 auto 0;
+	width: 90%;
+}
+.sname {
+	font-weight: bold;
+	font-size: 1.5em;
+	float: left;
+	padding-top: 25px;
+	padding-left: 20px;
+	color: $color-sname-text;
+}
+.bottom-nav {
+	display: none;
+}
