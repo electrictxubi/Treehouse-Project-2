@@ -54,11 +54,15 @@ img {
 	width: 93%;
 	padding-top: 17px;
 	padding-bottom: 17px;
+	margin-right: -5px;
 	font-size: 1.3em;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #4A4A4A;
 	border-radius: 5px;
+}
+.portfolio-li {
+	padding-right: 20px;
 }
 .nav li:not(first-child) {
 	margin-top: 7px;
